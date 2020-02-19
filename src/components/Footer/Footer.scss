@@ -1,0 +1,36 @@
+.footer {
+  display: flex !important;
+  align-items: center !important;
+  background-color: #333333 !important;
+  position: relative !important;
+  bottom: 0 !important;
+  width: 100% !important;
+  height: 50px !important;
+  font-size: 12px !important;
+  font-family: "Roboto", sans-serif !important;
+  color: white !important;
+  
+  &__instituto {
+    text-align: left;
+    width: 100%;
+    svg {
+      height: 30px;
+    }
+    span {
+      padding-left: 20px;
+    }
+  }
+  &__area {
+    text-align: center;
+    width: 100%;   
+  }
+  &__version {
+    text-align: right;
+    width: 100%;    
+  }
+  a {
+    text-decoration: underline;
+    color: white;
+    padding-left: 20px;
+  }
+}

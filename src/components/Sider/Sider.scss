@@ -1,0 +1,25 @@
+.ant-layout-sider-trigger {
+    /*width: 50px !important;
+    border-radius: 250px;
+    margin: 0 200px;*/
+    padding: 24 !important;
+    position: absolute !important;
+    bottom: 0 !important;
+    z-index: 1 !important;
+    height: 48px !important;
+    color: #fff !important;
+    line-height: 48px !important;//Centar la flecha
+    text-align: center !important;
+    background: #d5007f !important; //color del boton
+    cursor: pointer !important;
+    -webkit-transition: all 0.2s !important;
+    transition: all 0.2s !important;
+  //poner el boton en la paerte top
+    top: 0em;
+    right: 50;
+    bottom: 3em;
+    left: 0;
+    
+  }
+
+  
